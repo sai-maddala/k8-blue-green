@@ -25,4 +25,4 @@ spec:
       spec:
         containers:
         - name: nginx
-          image: saimaddala/backend:1.0.1
+          image: saimaddala/backend:1.0.0
