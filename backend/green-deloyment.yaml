@@ -31,4 +31,4 @@ spec:
           envFrom:
           - configMapRef:
               name: backend 
-              version: green 
+             
