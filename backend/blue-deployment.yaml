@@ -24,5 +24,8 @@ spec:
           project: expense 
       spec:
         containers:
-        - name: nginx
+        - name: nginx 
           image: saimaddala/backend:1.0.0
+          envFrom:
+          - ConfigMapRef:
+              name: backend 
