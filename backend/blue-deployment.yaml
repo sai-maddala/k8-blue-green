@@ -27,5 +27,5 @@ spec:
         - name: nginx 
           image: saimaddala/backend:1.0.0
           envFrom:
-          - ConfigMapRef:
+          - configMapRef:
               name: backend 
