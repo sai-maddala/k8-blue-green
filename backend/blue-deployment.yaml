@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
-  namespace: vpc
+  namespace: expense
   # lables of deployment resource
   labels:
     app: backend
