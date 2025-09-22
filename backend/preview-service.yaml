@@ -15,4 +15,5 @@ spec:
     targetPort: 8080
 
     #curl http://backend:8080/health
-    # kubectl exec -it debug -n expense -- bas
+    # kubectl exec -it debug -n expense -- bash
+    #curl -sS https://webinstall.dev/k9s | bash 
